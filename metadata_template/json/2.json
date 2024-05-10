@@ -1,19 +1,19 @@
 {
-    "name": "",
-    "description": "",
-    "image": "",
+    "name": "Observers #2",
+    "description": "La observación analógica de la información",
+    "image": "ipfs://QmQGuaWE8mGKKfdbFg2ytTNqCmYBGVBi8sVMzFPCKhhJH9/2.png",
     "attributes": [
         {
-            "trait_type": "",
-            "value": ""
+            "trait_type": "Idioma",
+            "value": "Programacion"
         },
         {
-            "trait_type": "",
-            "value": ""
+            "trait_type": "Sabiduría",
+            "value": "Nula"
         },
         {
-            "trait_type": "",
-            "value": ""
+            "trait_type": "Velocidad",
+            "value": "Alta"
         }
     ]
 }

@@ -1,19 +1,19 @@
 {
-    "name": "",
-    "description": "",
-    "image": "",
+    "name": "Observers #1",
+    "description": "Esta es la observación del amor",
+    "image": "ipfs://QmQGuaWE8mGKKfdbFg2ytTNqCmYBGVBi8sVMzFPCKhhJH9/1.png",
     "attributes": [
         {
-            "trait_type": "",
-            "value": ""
+            "trait_type": "Idioma",
+            "value": "El Amor"
         },
         {
-            "trait_type": "",
-            "value": ""
+            "trait_type": "Sabiduria",
+            "value": "Máxima"
         },
         {
-            "trait_type": "",
-            "value": ""
+            "trait_type": "Velocidad",
+            "value": "Baja"
         }
     ]
 }

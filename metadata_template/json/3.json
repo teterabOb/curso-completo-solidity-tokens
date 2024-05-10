@@ -1,19 +1,19 @@
 {
-    "name": "",
-    "description": "",
-    "image": "",
+    "name": "Observers #3",
+    "description": "El observador de la guerra a través de una mirada fría y una espada afilada",
+    "image": "ipfs://QmQGuaWE8mGKKfdbFg2ytTNqCmYBGVBi8sVMzFPCKhhJH9/3.png",
     "attributes": [
         {
-            "trait_type": "",
-            "value": ""
+            "trait_type": "Idioma",
+            "value": "Maquina"
         },
         {
-            "trait_type": "",
-            "value": ""
+            "trait_type": "Sabiduria",
+            "value": "Baja"
         },
         {
-            "trait_type": "",
-            "value": ""
+            "trait_type": "Velocidad",
+            "value": "Media"
         }
     ]
 }

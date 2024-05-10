@@ -1,19 +1,19 @@
 {
-    "name": "",
-    "description": "",
-    "image": "",
+    "name": "Observers #0",
+    "description": "Este es el gato observador",
+    "image": "ipfs://QmQGuaWE8mGKKfdbFg2ytTNqCmYBGVBi8sVMzFPCKhhJH9/0.png",
     "attributes": [
         {
-            "trait_type": "",
-            "value": ""
+            "trait_type": "Idioma",
+            "value": "Catuno"
         },
         {
-            "trait_type": "",
-            "value": ""
+            "trait_type": "Sabiduria",
+            "value": "Alta"
         },
         {
-            "trait_type": "",
-            "value": ""
+            "trait_type": "Velocidad",
+            "value": "Alta"
         }
     ]
 }
