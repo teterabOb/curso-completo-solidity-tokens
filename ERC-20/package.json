@@ -1,5 +1,17 @@
 {
   "dependencies": {
     "@openzeppelin/contracts": "^5.0.2"
+  },
+  "scripts": {
+    "simulate:anvil": "npm run simulate:script && npm run simulate:token",
+
+    "simulate:script": "forge script script/Counter.s.sol:CounterScript --rpc-url http://127.0.0.1:8545 -vvvv",
+    "simulate:token": "forge script script/ObserversToken.s.sol:ObserversTokenScript --rpc-url http://127.0.0.1:8545 -vvvv",
+
+    "deploy:anvil": "npm run dpeloy-anvil:script && npm run deploy-anvil:token",
+    "dpeloy-anvil:script": "forge script script/Counter.s.sol:CounterScript --rpc-url http://127.0.0.1:8545 -vvvv",
+    "deploy-anvil:token": "forge script script/ObserversToken.s.sol:ObserversTokenScript --rpc-url http://127.0.0.1:8545 -vvvv",
+
+    "deploy:sepolia": "Agregar Script para sepolia"
   }
 }

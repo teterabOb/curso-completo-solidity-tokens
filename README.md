@@ -20,6 +20,7 @@ Este tutorial cubre los estándares de tokens ERC-20, ERC-721, ERC-1155, ERC-721
 
 // Aquí puedes explicar qué es ERC-20, cómo funciona, y proporcionar ejemplos de código si es necesario.
 
+
 ## ERC-721
 
 // Aquí puedes explicar qué es ERC-721, cómo funciona, y proporcionar ejemplos de código si es necesario.

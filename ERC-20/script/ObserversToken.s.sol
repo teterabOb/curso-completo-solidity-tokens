@@ -10,7 +10,7 @@ contract ObserversTokenScript is Script {
     function run() public {
         uint256 deployerPrivateKey = 0xac0974bec39a17e36ba4a6b4d238ff944bacb478cbed5efcae784d7bf4f2ff80;
         vm.startBroadcast(deployerPrivateKey);
-        ObserversToken token = new ObserversToken(address(this));
+        ObserversToken token = new ObserversToken();
         console.logAddress(token.owner());
         vm.stopBroadcast();
     }
