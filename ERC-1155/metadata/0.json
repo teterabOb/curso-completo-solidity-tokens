@@ -1,0 +1,20 @@
+{
+    "external_url": "www.gilbertsahumada.com",
+    "image": "ipfs://QmPCCxaV4RvVGNdVZWctHP4btbEPSCG81CU4EP1HwsThFM/0.png",
+    "name": "ObservDevs #0",
+    "description": "El mejor NFT de la historia, el primero de la serie ObservDevs, un NFT que no puedes dejar pasar, es unico y exclusivo, no te quedes sin el tuyo.",
+    "attributes": [
+        {
+            "trait_type": "Edition",
+            "value": "1"
+        },
+        {
+            "trait_type": "Type",
+            "value": "Extra"
+        },
+        {
+            "trait_type": "ODV",
+            "value": "Pump"
+        }
+    ]
+}
