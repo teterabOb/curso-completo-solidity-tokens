@@ -1,0 +1,20 @@
+{
+    "external_url": "www.youtube.com/@gilbertsahumada",
+    "image": "ipfs://QmRZF8ZR4ZFbfw826vogFzpU5tkZb2iz3Jbbvc1N72FM4L/4.png",
+    "name": "ObservDevs 721A #4",
+    "description": "El mejor NFT de la historia, el primero de la serie ObservDevs del estándar ERC-721A, un NFT que no puedes dejar pasar, es unico y exclusivo, no te quedes sin el tuyo.",
+    "attributes": [
+        {
+            "trait_type": "Edition",
+            "value": "1"
+        },
+        {
+            "trait_type": "Type",
+            "value": "Extra"
+        },
+        {
+            "trait_type": "ODV",
+            "value": "Pump"
+        }
+    ]
+}
