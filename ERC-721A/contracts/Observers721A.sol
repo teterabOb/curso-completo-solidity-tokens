@@ -19,6 +19,8 @@ contract Observers721A is ERC721A, ERC2981, Ownable {
 
     //Mapping para manejar los tokens que han minteado los usuarios
     mapping(address => uint256) public s_nftsMintedByUser;
+    // Mapping para almacenar las addresses que están en la whitelist
+    mapping(address => bool) public whiteList;
 
     constructor() ERC721A("Observers721A", "OBS") Ownable(msg.sender) {
         s_baseUri = "ipfs://QmbtfYEy7yc9aVWGZq7QsLgzRsHkwMWpTWPwKSksjECxpg/";
@@ -41,6 +43,7 @@ contract Observers721A is ERC721A, ERC2981, Ownable {
     }
 
     function mint(uint256 quantity) external payable isTotalReached(quantity) {
+        require(s_whitelistMintOpen, "Public minting closed");
         require(
             quantity <= s_mintLimitPerAddress && 
             s_nftsMintedByUser[msg.sender] + quantity <= s_mintLimitPerAddress
@@ -52,6 +55,7 @@ contract Observers721A is ERC721A, ERC2981, Ownable {
     }
 
     function mintWhitelist(uint256 quantity) external payable isTotalReached(quantity) {
+        require(s_publicMintOpen, "Public minting closed");
         require(
             quantity <= s_mintLimitPerAddress && 
             s_nftsMintedByUser[msg.sender] + quantity <= s_mintLimitPerAddress
@@ -66,6 +70,20 @@ contract Observers721A is ERC721A, ERC2981, Ownable {
         s_publicMintOpen = _publicMintOpen;
         s_whitelistMintOpen = _whitelistMintOpen;
     }
+    
+    function updateWhiteList(address[] memory _addresses) external onlyOwner {
+        for (uint256 i; i < _addresses.length; i++) 
+        {
+            whiteList[_addresses[i]] = true;
+        }
+    }  
+
+    function withdraw(address _receiver) external onlyOwner {
+        uint256 balance = address(this).balance;
+        payable(_receiver).transfer(balance);
+    } 
+
+    
 
     // Sobre escribimos esta funcion para poder retornar la URI base que corresponde
     // Esta URI la vamos a setear en el constructor
@@ -78,6 +96,10 @@ contract Observers721A is ERC721A, ERC2981, Ownable {
     // con la modificación de la función _baseURI()
     function tokenURI(uint256 tokenId) public view override returns(string memory){
         return string(abi.encodePacked(_baseURI(), _toString(tokenId), ".json"));
+    }
+
+    function setDefaultRoyalty(address _receiver, uint96 _feeNumerator) external onlyOwner {
+        _setDefaultRoyalty(_receiver, _feeNumerator);
     }
 
     modifier isTotalReached(uint256 quantity) {
