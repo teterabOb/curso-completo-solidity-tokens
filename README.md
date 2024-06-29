@@ -14,29 +14,26 @@ Este tutorial cubre los estándares de tokens ERC-20, ERC-721, ERC-1155, ERC-721
 
 ## Introducción
 
-// Aquí puedes escribir una breve introducción sobre el tutorial.
+Este código pertenece a la serie de videos que están en el canal de youtube @gilbertsahumada para aprender los estándres más utilizados para tokens fungibles, no-fungibles y semifungibles. Que corresponden a los estándres ERC-20, ERC-721, ERC-721A y ERC-1155. Y adicionalmente he agregado un video final en el que combinarás el uso del token ERC-721 y ERC-20 en un contrato de staking. En el que depositarás un token erc-721 y obtendrás recompensas en el token ERC-20 desarollado previamente.
+
+Para finalizar todo este contenido se encuentra por deparado en videos independientes y un gran video de +4 Hrs. en el que mejorarás tus habilidades en solidity y entenderás conceptos ampliamente utilizados en la industria Web3.
 
 ## ERC-20
 
-// Aquí puedes explicar qué es ERC-20, cómo funciona, y proporcionar ejemplos de código si es necesario.
+
 
 
 ## ERC-721
 
-// Aquí puedes explicar qué es ERC-721, cómo funciona, y proporcionar ejemplos de código si es necesario.
 
 ## ERC-1155
 
-// Aquí puedes explicar qué es ERC-1155, cómo funciona, y proporcionar ejemplos de código si es necesario.
 
 ## ERC-721A
 
-// Aquí puedes explicar qué es ERC-721A, cómo funciona, y proporcionar ejemplos de código si es necesario.
 
 ## Contrato de NFT Staking
 
-// Aquí puedes explicar qué es un contrato de NFT Staking, cómo funciona, y proporcionar ejemplos de código si es necesario.
 
 ## Conclusión
 
-// Aquí puedes escribir una conclusión para el tutorial.
